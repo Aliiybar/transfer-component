@@ -1,0 +1,25 @@
+.transfer{
+    display:flex;
+    padding:1rem;
+    justify-content: stretch;
+}
+
+.transferButtons{
+     align-self: center;
+     padding-left:1rem;
+     padding-right:1rem;
+     display:flex;
+     flex-direction: column;
+}
+.transferButtons>button{
+    margin: 0.3rem;
+}
+
+.transferSource{
+    min-width: 5rem;
+}
+
+select {
+    text-indent: 5px;
+    width: 150px; ;
+  }
