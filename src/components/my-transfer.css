@@ -15,10 +15,6 @@
     margin: 0.3rem;
 }
 
-.transferSource{
-    min-width: 5rem;
-}
-
 select {
     text-indent: 5px;
     width: 150px; ;
