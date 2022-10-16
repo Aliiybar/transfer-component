@@ -47,7 +47,7 @@ export default function MyTransfer(props:any) {
     }
 
     const sourceToTarget = () => {
-        let newSelection = selectedDataKeys 
+        let newSelection = [...selectedDataKeys]
         sourceSelected.map(k=> newSelection.push(parseInt(k)))
         setSourceSelected([])
         props.setSelectedDataKeys(newSelection)

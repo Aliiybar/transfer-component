@@ -33,6 +33,7 @@ function App() {
           targetTitle="Target"
           size={8}  // size of the listboxes 
         />
+        {selectedDataKeys.map(k=> <label>{k}</label>)}
     </div>
   );
 }
